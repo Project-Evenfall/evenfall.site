@@ -7,9 +7,22 @@ body {
     color: white;
 }
 
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
 @media (prefers-color-scheme: light) {
     body {
         background-color: white;
         color: black;
+    }
+    a {
+        color: blue;
     }
 }
