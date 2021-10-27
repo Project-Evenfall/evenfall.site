@@ -1,0 +1,10 @@
+https://:project.pages.dev/:path
+  Link: <https://evenfall.site/:path>; rel="canonical"
+  X-Robots-Tag: noindex
+
+https://:commit.:project.pages.dev/:path
+  Link: <https://evenfall.site/:path>; rel="canonical"
+
+/*
+    Permissions-Policy: interest-cohort=()
+    X-Content-Type-Options: nosniff
