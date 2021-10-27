@@ -1,9 +1,9 @@
-https://:project.pages.dev/:path
-  Link: <https://evenfall.site/:path>; rel="canonical"
+https://:project.pages.dev/*
+  Link: <https://evenfall.site/:splat>; rel="canonical"
   X-Robots-Tag: noindex
 
-https://:commit.:project.pages.dev/:path
-  Link: <https://evenfall.site/:path>; rel="canonical"
+https://:commit.:project.pages.dev/*
+  Link: <https://evenfall.site/:splat>; rel="canonical"
 
 /*
     Permissions-Policy: interest-cohort=()
